@@ -69,9 +69,7 @@ i18next.init({
         "staff-1": "Абдугафоров Юсуф Абдугафорович",
         "staff-2": "Талибов Феруз Актамович",
         "staff-3": "Ходжаев Жамшед Кодиркулович",
-        "staff-4": "Хасанов Лазиз Азизович",
         "staff-5": "Гуломова Азиза Сабиржановна",
-        "staff-6": "Шермамедов Сухроб Сахибович",
         "staff-7": "Толлиев Азизжон Фарходович",
         "staff-director" : "Адвокат Управляющий",
         "staff-partner": "Адвокат Партнёр",
@@ -147,9 +145,7 @@ i18next.init({
         "staff-1": "Абдуғафоров Юсуф Абдуғафорович",
         "staff-2": "Талибов Феруз Актамович",
         "staff-3": "Ходжаев Жамшед Кодиркулович",
-        "staff-4": "Хасанов Лазиз Азизович",
         "staff-5": "Гуломова Азиза Сабиржановна",
-        "staff-6": "Шермамедов Сухроб Сахибович",
         "staff-7": "Толлиев Азизжон Фарходович",
         "staff-director" : "Адвокат Бошқарувчи",
         "staff-partner": "Адвокат Шерик",
@@ -233,9 +229,7 @@ function updateContent() {
   document.getElementById('staff-1').innerHTML = i18next.t('staff-1');
   document.getElementById('staff-2').innerHTML = i18next.t('staff-2');
   document.getElementById('staff-3').innerHTML = i18next.t('staff-3');
-  document.getElementById('staff-4').innerHTML = i18next.t('staff-4');
   document.getElementById('staff-5').innerHTML = i18next.t('staff-5');
-  document.getElementById('staff-6').innerHTML = i18next.t('staff-6');
   document.getElementById('staff-7').innerHTML = i18next.t('staff-7');
   document.querySelectorAll("#staff-director").forEach(staff => staff.innerHTML = i18next.t('staff-director'));
   document.querySelectorAll("#staff-partner").forEach(staff => staff.innerHTML = i18next.t('staff-partner'));
