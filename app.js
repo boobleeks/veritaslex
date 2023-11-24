@@ -1,5 +1,5 @@
-import '../public_html/scripts/locale.js';
-import '../public_html/scripts/swiper.js';
-import '../public_html/scripts/map.js';
-import '../public_html/scripts/services.js';
-import '../public_html/scripts/modal.js';
+import './scripts/locale.js';
+import './scripts/swiper.js';
+import './scripts/map.js';
+import './scripts/services.js';
+import './/scripts/modal.js';
